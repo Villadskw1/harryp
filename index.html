@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hogwarts Spil - Login</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body class="login-page">
+  <div class="login-container">
+    <h1>🧙‍♂️ Velkommen til Hogwarts</h1>
+    <div class="form">
+      <input type="text" id="username" placeholder="Brugernavn" />
+      <input type="password" id="password" placeholder="Adgangskode" />
+      <button onclick="login()">Login</button>
+      <p>eller</p>
+      <button onclick="register()">Registrér</button>
+    </div>
+    <p id="message"></p>
+  </div>
 
+  <script src="scripts/auth.js"></script>
+</body>
+</html>
